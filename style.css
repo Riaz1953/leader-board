@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+}
+body{
+    background-color: #F3F1FF;
+}
+/* Nav bar */
+.navbar{
+    background-image: linear-gradient(455deg,blue,rgb(6, 6, 245));
+    height: 80px;
+    padding:  10px 10%;
+}
+.flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between ;
+    align-items: center;
+}
+.left-nav h3{
+    font-size: 25px;
+    color: #fff;
+    margin-left: 15px;
+}
+.left-nav img{
+    width: 50px;
+    height: 50px;
+}
+.right-nav img{
+    margin-left: 30px;
+}
+.right-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.right-nav ul{
+    
+}
+.right-nav li{
+    list-style: none;
+    text-align: center;
+    margin: 0 15px;
+    transition: 1s;
+    
+}
+.right-nav li:hover{
+   border-bottom: 3px solid #fff;
+   width: 48px;
+   margin-bottom: 3px;
+}
+/* main */
+.top{
+background-color: #fff;
+width: 870px;
+/* height: 669px; */
+margin: 20px 290px;
+padding: 30px;
+box-sizing: border-box;
+
+}
+.heading{
+    font-size: 30px;
+    color: #562DFD;
+}
+.player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #A8A8A8;
+    padding-bottom: 20px;
+}
+.player-tag{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    flex-basis: 250px;
+}
+.player-tag img{
+    width: 66px;
+    height: 66px;
+    margin-right: 15px;
+}
+.player-tag h4{
+    font-size: 20px;
+ 
+}
+
+/* player end */
+.blog{
+    margin-top: 20px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blog-content{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.blog-item span{
+    color: #562DFD;
+}
+.blog-item h3{
+    margin-bottom: 20px;
+}
+.blog img{
+    width: 180px;
+}
+.blog h3{
+
+}
+/* bottom */
+.bottom{background-color: #fff;
+width: 870px;
+margin: 20px 290px;
+padding: 30px;
+box-sizing: border-box;
+}
+.bottom-content img{
+    width: 250px;
+    
+}
+.bottom-content p{
+    color: red;
+}
+.bottom-content h3{
+margin: 10px 0;
+}
+br{
+    margin-top: 10px;
+}
+.card-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.utility i{
+    display: inline-block;
+    color: #FF4D65;
+    
+}
+.utility{
+    margin: 15px 0;
+}
+.card{
+    /* background-color:#A8A8A8; */
+    box-shadow: 5px 10px 8px #888888;
+    padding: 5px;
+}
+.utility p{
+    display: inline-block;
+    margin: 0 15px;
+}
+.clock{
+    display: inline-block;
+}
